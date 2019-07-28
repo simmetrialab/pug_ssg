@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+    head
+        title category
+        link(rel="stylesheet", href="")
+    body
+        p ciaone 
+        ol
+            each value in data
+                li !{value.name}
+                li !{value.pack_link}
+                li !{value.product_link}
+                li !{value.next_link}
+                li !{value.prev_link}
+                

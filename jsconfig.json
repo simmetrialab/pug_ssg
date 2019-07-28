@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "classic",
+        "baseUrl": "./src/",
+        "paths": {
+          "assets/*": ["./assets/*"],
+          "js/*": ["./js/*"],
+          "pages/*": ["./pages/*"],
+          "scss/*": ["./scss/*"],
+          "templates/*": ["./templates/*"],
+          "utils/*": ["./utils/*"]
+        }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules"],
+    "compileOnSave": true
+  }

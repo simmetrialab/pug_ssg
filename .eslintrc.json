@@ -1,0 +1,32 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    [ "assets", "./src/assets/" ],
+                    [ "js", "./src/js" ],
+                    [ "pages", "./src/pages" ],
+                    [ "scss", "./src/scss" ],
+                    [ "templates", "./src/templates" ]
+                ],
+                "extensions": [
+                    ".js",
+                    ".json",
+                ]
+            }
+        }
+    }
+}
